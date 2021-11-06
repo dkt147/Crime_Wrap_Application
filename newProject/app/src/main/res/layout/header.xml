@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_view"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CrimeWrap"
+        android:textColor="#C80B0A0A"
+        android:textSize="24dp">
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Crime...report it.Don't support it."
+        android:textColor="#C80B0A0A"
+        android:textSize="14dp"
+        android:textStyle="bold"></TextView>
+</LinearLayout>
